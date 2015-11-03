@@ -1,0 +1,104 @@
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Paths
+ * Usage: background-image: url('#{$imagePath}sprite-main.png');
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+$imagePath: "../images/";
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Measures
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+// Spacing
+
+$space: 10px;
+
+
+// Responsive Breakpoints
+// http://graphicdesign.stackexchange.com/a/41845
+
+$device-xsmall: 321px;
+$device-small: 641px;
+$device-medium: 769px;
+$device-large: 	1025px;
+$device-xlarge: 1201px;
+
+
+// Grid
+
+$grid-12: 100%;
+$grid-11: 91.66666666666666%;
+$grid-10: 83.33333333333333%;
+$grid-9: 75%;
+$grid-8: 66.66666666666666%;
+$grid-7: 58.33333333333333%;
+$grid-6: 50%;
+$grid-5: 41.66666666666666%;
+$grid-4: 33.33333333333333%;
+$grid-3: 25%;
+$grid-2: 16.66666666666666%;
+$grid-1:  8.33333333333333%;
+
+
+// Animations and Visuals
+
+$border-radius: 3px;
+
+$opacity: .8;
+$opacity-light: .6;
+
+$transition-duration: .3s;
+$transition-duration-fast: .15s;
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Fonts
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+$font-family-body: 'Roboto', Helvetica, Arial, sans-serif;
+$font-family-heading: Helvetica, Arial, sans-serif;
+
+$font-weight-light: 	300;
+$font-weight-normal: 	400;
+$font-weight-bold: 		600;
+
+// Sizes
+
+$font-size-base: 	14px !default;
+$font-size-xxs: 	$font-size-base * 0.75;
+$font-size-xs: 		$font-size-base * 0.80;
+$font-size-s: 		$font-size-base * 0.90;
+$font-size-l: 		$font-size-base * 1.25;
+$font-size-xl: 		$font-size-base * 1.5;
+$font-size-xxl: 	$font-size-base * 1.75;
+$font-size-xxxl: 	$font-size-base * 2;
+$font-size-xxxxl: 	$font-size-base * 3;
+$font-size-xxxxxl: 	$font-size-base * 4.5;
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Colors
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+$white: #fff;
+$grey-light: #f2f6f7;
+$grey: #ccc;
+$grey-dark: #666;
+$black: #1A1A1F;
+
+$orange: #FF7900;
+
+
+// Color Behavior
+
+$color-primary: $orange;
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Z-indexes
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+$z-index-messages:			50000;
+$z-index-menu: 				40000;
