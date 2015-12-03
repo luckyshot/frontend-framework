@@ -88,12 +88,19 @@ $grey: #ccc;
 $grey-dark: #666;
 $black: #1A1A1F;
 
+$yellow: #FFA90C;
 $orange: #FF7900;
+$red: #f05327;
+$green: #2ECC71;
+$blue: #2E96CC;
+$blue-lightest: #FDFDFE;
 
 
 // Color Behavior
 
 $color-primary: $orange;
+$color-background: $white;
+$color-transparent-box: rgba(0,0,0,.5);
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
