@@ -1,0 +1,43 @@
+/*
+Optional readability CSS styles
+
+
+Font weight reference:
+
+100 = thin
+200 = extra-light
+300 = light
+400 = normal, book
+500 = medium
+600 = demi-bold
+700 = bold
+800 = heavy
+900 = black
+
+*/
+html {
+  color: $black;
+  background: $white;
+  font-family: $font-family-body;
+  font-size: $font-size-base;
+  line-height: 1.618em;
+  max-width: 35em; /* 35-60em */
+  text-rendering: optimizeLegibility;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $font-family-heading;
+}
+
+p {
+  margin: 0.8125em 0;
+}
+
+// whenever the measure is smaller than 45 characters, show a smaller font size
+// http://informationarchitects.net/blog/responsive-typography-the-basics/
+@media (max-width: 22em) {
+   body {
+      font-size: .9em;
+      padding: 0 1.5em;
+    }
+}
