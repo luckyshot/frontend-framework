@@ -44,7 +44,7 @@ var APP = APP || {};
 			{
 				if ( this.hasClassName( name ) ) {
 					var c = this.className;
-					this.className = c.replace(new RegExp("(?:^|\\s+)" + name + "(?:\\s+|$)", "g"), "");
+					this.className = c.replace(new RegExp("(?:^|\\s+)" + name + "(?:\\s+|$)", "g"), "").trim();
 				}
 				return this;
 			};
