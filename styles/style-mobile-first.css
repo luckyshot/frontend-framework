@@ -1,0 +1,189 @@
+/* Grid: This file is a mobile-first, CSS version */
+
+html {
+	box-sizing: border-box;
+	background: #fff;
+	color: #1A1A1F;
+	font-family: Helvetica, sans-serif;
+	font-weight: 200;
+	line-height: 1.618em;
+	text-rendering: optimizeLegibility;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+p {
+	margin: 0.8125em 0;
+}
+
+/* whenever the measure is smaller than 45 characters, show a smaller font size
+http://informationarchitects.net/blog/responsive-typography-the-basics/ */
+@media (max-width: 22em) {
+	body {
+		font-size: .9em;
+	}
+}
+
+
+.r {margin: 0 auto}
+
+.xs12,.xs11,.xs10,.xs9,.xs8,.xs7,.xs6,.xs5,.xs4,.xs3,.xs2,.xs1,
+.sm12,.sm11,.sm10,.sm9,.sm8,.sm7,.sm6,.sm5,.sm4,.sm3,.sm2,.sm1,
+.md12,.md11,.md10,.md9,.md8,.md7,.md6,.md5,.md4,.md3,.md2,.md1,
+.lg12,.lg11,.lg10,.lg9,.lg8,.lg7,.lg6,.lg5,.lg4,.lg3,.lg2,.lg1,
+.xl12,.xl11,.xl10,.xl9,.xl8,.xl7,.xl6,.xl5,.xl4,.xl3,.xl2,.xl1 {
+	display: inline-block;
+	margin: 0 -4px 0 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+.xsdn, .smdn, .mddn, .lgdn, .xldn, .xldn {
+	display: none;
+}
+
+
+.xs12 {width: 100%; margin-right: 0}
+.xs11 {width: 91.66666666666666%}
+.xs10 {width: 8.33333333333333%0}
+.xs9  {width: 75%}
+.xs8  {width: 66.66666666666666%}
+.xs7  {width: 58.33333333333333%}
+.xs6  {width: 50%}
+.xs5  {width: 41.66666666666666%}
+.xs4  {width: 33.33333333333333%}
+.xs3  {width: 25%}
+.xs2  {width: 16.66666666666666%}
+.xs1  {width: 8.33333333333333%}
+
+.m {margin: 10px}
+
+.p {padding: 10px}
+.pr {padding-right: 10px}
+.pl {padding-left: 10px}
+.pt {padding-top: 10px}
+.pb {padding-bottom: 10px}
+
+.tal {text-align: left}
+.tac {text-align: center}
+.tar {text-align: right}
+
+
+
+@media only screen and ( min-width: 576px ) and ( max-width: 767px ){
+	.sm12 {width: 100%; margin-right: 0}
+	.sm11 {width: 91.66666666666666%}
+	.sm10 {width: 8.33333333333333%0}
+	.sm9  {width: 75%}
+	.sm8  {width: 66.66666666666666%}
+	.sm7  {width: 58.33333333333333%}
+	.sm6  {width: 50%}
+	.sm5  {width: 41.66666666666666%}
+	.sm4  {width: 33.33333333333333%}
+	.sm3  {width: 25%}
+	.sm2  {width: 16.66666666666666%}
+	.sm1  {width: 8.33333333333333%}
+
+	.smm {margin: 10px}
+
+	.smp {padding: 10px}
+	.smpr {padding-right: 10px}
+	.smpl {padding-left: 10px}
+	.smpt {padding-top: 10px}
+	.smpb {padding-bottom: 10px}
+
+	.smtal {text-align: left}
+	.smtac {text-align: center}
+	.smtar {text-align: right}
+
+	.smd {display: inherit}
+}
+
+@media only screen and ( min-width: 768px ) and ( max-width: 991px ){
+	.md12 {width: 100%; margin-right: 0}
+	.md11 {width: 91.66666666666666%}
+	.md10 {width: 8.33333333333333%0}
+	.md9  {width: 75%}
+	.md8  {width: 66.66666666666666%}
+	.md7  {width: 58.33333333333333%}
+	.md6  {width: 50%}
+	.md5  {width: 41.66666666666666%}
+	.md4  {width: 33.33333333333333%}
+	.md3  {width: 25%}
+	.md2  {width: 16.66666666666666%}
+	.md1  {width: 8.33333333333333%}
+
+	.mdm {margin: 10px}
+
+	.mdp {padding: 10px}
+	.mdpr {padding-right: 10px}
+	.mdpl {padding-left: 10px}
+	.mdpt {padding-top: 10px}
+	.mdpb {padding-bottom: 10px}
+
+	.mdtal {text-align: left}
+	.mdtac {text-align: center}
+	.mdtar {text-align: right}
+
+	.mdd {display: inherit}
+}
+
+@media only screen and ( min-width: 992px ) and ( max-width: 1199px ){
+	.lg12 {width: 100%; margin-right: 0}
+	.lg11 {width: 91.66666666666666%}
+	.lg10 {width: 8.33333333333333%0}
+	.lg9  {width: 75%}
+	.lg8  {width: 66.66666666666666%}
+	.lg7  {width: 58.33333333333333%}
+	.lg6  {width: 50%}
+	.lg5  {width: 41.66666666666666%}
+	.lg4  {width: 33.33333333333333%}
+	.lg3  {width: 25%}
+	.lg2  {width: 16.66666666666666%}
+	.lg1  {width: 8.33333333333333%}
+
+	.lgm {margin: 10px}
+
+	.lgp {padding: 10px}
+	.lgpr {padding-right: 10px}
+	.lgpl {padding-left: 10px}
+	.lgpt {padding-top: 10px}
+	.lgpb {padding-bottom: 10px}
+
+	.lgtal {text-align: left}
+	.lgtac {text-align: center}
+	.lgtar {text-align: right}
+
+	.lgd {display: inherit}
+}
+
+@media only screen and ( min-width: 1200px ){
+	.xl12 {width: 100%; margin-right: 0}
+	.xl11 {width: 91.66666666666666%}
+	.xl10 {width: 8.33333333333333%0}
+	.xl9  {width: 75%}
+	.xl8  {width: 66.66666666666666%}
+	.xl7  {width: 58.33333333333333%}
+	.xl6  {width: 50%}
+	.xl5  {width: 41.66666666666666%}
+	.xl4  {width: 33.33333333333333%}
+	.xl3  {width: 25%}
+	.xl2  {width: 16.66666666666666%}
+	.xl1  {width: 8.33333333333333%}
+
+	.xlm {margin: 10px}
+
+	.xlp {padding: 10px}
+	.xlpr {padding-right: 10px}
+	.xlpl {padding-left: 10px}
+	.xlpt {padding-top: 10px}
+	.xlpb {padding-bottom: 10px}
+
+	.xltal {text-align: left}
+	.xltac {text-align: center}
+	.xltar {text-align: right}
+
+	.xld {display: inherit}
+}
