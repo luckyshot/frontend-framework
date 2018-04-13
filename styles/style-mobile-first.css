@@ -58,17 +58,17 @@ http://informationarchitects.net/blog/responsive-typography-the-basics/ */
 .xs2  {width: 16.66666666666666%}
 .xs1  {width: 8.33333333333333%}
 
-.m {margin: 10px}
+.xsm {margin: 10px}
 
-.p {padding: 10px}
-.pr {padding-right: 10px}
-.pl {padding-left: 10px}
-.pt {padding-top: 10px}
-.pb {padding-bottom: 10px}
+.xsp {padding: 10px}
+.xspr {padding-right: 10px}
+.xspl {padding-left: 10px}
+.xspt {padding-top: 10px}
+.xspb {padding-bottom: 10px}
 
-.tal {text-align: left}
-.tac {text-align: center}
-.tar {text-align: right}
+.xstal {text-align: left}
+.xstac {text-align: center}
+.xstar {text-align: right}
 
 
 
