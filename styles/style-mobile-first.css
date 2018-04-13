@@ -72,7 +72,7 @@ http://informationarchitects.net/blog/responsive-typography-the-basics/ */
 
 
 
-@media only screen and ( min-width: 576px ) and ( max-width: 767px ){
+@media only screen and ( min-width: 576px ){
 	.sm12 {width: 100%; margin-right: 0}
 	.sm11 {width: 91.66666666666666%}
 	.sm10 {width: 8.33333333333333%0}
@@ -101,7 +101,7 @@ http://informationarchitects.net/blog/responsive-typography-the-basics/ */
 	.smd {display: inherit}
 }
 
-@media only screen and ( min-width: 768px ) and ( max-width: 991px ){
+@media only screen and ( min-width: 768px ){
 	.md12 {width: 100%; margin-right: 0}
 	.md11 {width: 91.66666666666666%}
 	.md10 {width: 8.33333333333333%0}
@@ -130,7 +130,7 @@ http://informationarchitects.net/blog/responsive-typography-the-basics/ */
 	.mdd {display: inherit}
 }
 
-@media only screen and ( min-width: 992px ) and ( max-width: 1199px ){
+@media only screen and ( min-width: 990px ){
 	.lg12 {width: 100%; margin-right: 0}
 	.lg11 {width: 91.66666666666666%}
 	.lg10 {width: 8.33333333333333%0}
